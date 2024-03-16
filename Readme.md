@@ -47,3 +47,36 @@ This is a simple command-line implementation of the classic game "Rock Paper Sci
 - Provides clear instructions and feedback during gameplay.
 
 Enjoy playing Rock Paper Scissors against the computer!
+
+
+# Adventure Game By cloning the choose_adventure module in your system.
+
+This repository contains a simple text-based adventure game written in Python. The game allows players to embark on an adventure where they make choices that determine their fate.
+
+## How to Play
+
+1. Clone the repository to your local machine:
+2. Navigate to the directory containing the cloned repository:
+3. Run the Python script:
+4. Follow the prompts and make choices by typing your responses.
+
+## Gameplay
+
+- Start by entering your name.
+- Make choices to navigate through the adventure.
+- Different choices lead to different outcomes.
+- Make strategic decisions to reach a successful conclusion.
+
+## Game Flow
+
+1. **Starting Point**: Choose to go left or right from the starting point.
+2. **Left Path**: Encounter a river and make a decision.
+3. **Right Path**: Encounter a bridge and make a decision.
+4. **Game Over**: Incorrect choices or invalid options lead to failure.
+
+## Enjoy Your Adventure!
+
+Embark on this text-based journey, make strategic decisions, and see where your choices lead you. Good luck and have fun!
+
+
+
