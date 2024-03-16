@@ -33,8 +33,11 @@ def main():
         
     else:
         print(f"Invalid option {name}, You lost!")
-        
+    
+    
+    print(f"Thank you for trying {name}")
         
 
 if __name__ == "__main__":
     main()
+    
