@@ -15,4 +15,4 @@ print(f'You Scored {score_count}.\nThank You')
 
 # print(quiz_data)
 
-print(len(quiz_data))
+# print(len(quiz_data))
