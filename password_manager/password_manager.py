@@ -1,6 +1,25 @@
 # just a fun project..can't be implemented in production
 
-pwd = input("What is the master password? ")
+master_pwd = input("What is the master password? ")
+
+
+
+def view():
+    with open('passwds.txt', 'r') as f:
+        for line in f.readline:
+            print(line)
+
+
+
+
+def add():
+    name = input("Account Name: ")
+    password = input("Password: ")
+    
+    with open('passwds.txt', 'a') as f:
+        f.write(f"{name} | {password}")
+
+    print("Added in the file :)")
 
 
 
@@ -14,8 +33,9 @@ while True:
         quit()
         
     if mode == "view":
-        pass
+        view()
     elif mode == "add":
-        pass
+        add()
     else:
         print("Sorry, You have to choose either add or view, try again")
+        continue
