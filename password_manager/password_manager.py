@@ -31,7 +31,7 @@ def view():
         for line in f.readlines():
             data = line.rstrip()
             user, passw = data.split('|')
-            print(f"user: {user}, password: {passw}")
+            print(f"user: {user}, password: {fer.decrypt(passw.encode())}")
 
 
 
@@ -41,7 +41,7 @@ def add():
     password = input("Password: ")
     
     with open('passwds.txt', 'a') as f:
-        f.write(f"{name} | {str(fer.encrypt(password.encode()))}\n")
+        f.write(f"{name} | {fer.encrypt(password.encode()).decode()}\n")
 
     print("Added in the file :)")
 
