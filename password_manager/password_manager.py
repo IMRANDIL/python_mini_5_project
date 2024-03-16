@@ -6,8 +6,8 @@ master_pwd = input("What is the master password? ")
 
 def view():
     with open('passwds.txt', 'r') as f:
-        for line in f.readline:
-            print(line)
+        for line in f.readlines():
+            print(line.rstrip())
 
 
 
@@ -17,7 +17,7 @@ def add():
     password = input("Password: ")
     
     with open('passwds.txt', 'a') as f:
-        f.write(f"{name} | {password}")
+        f.write(f"{name} | {password}\n")
 
     print("Added in the file :)")
 
