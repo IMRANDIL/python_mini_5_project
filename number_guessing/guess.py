@@ -37,8 +37,6 @@ while True:
         if random_number == int(guessing_number):
             print("You got it")
             break
-        else:
-            continue
     else:
         print('Please type a number next time.')
         continue
