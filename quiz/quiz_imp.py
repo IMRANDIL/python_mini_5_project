@@ -4,14 +4,22 @@ import random
 # Load quiz data
 quiz_data = require_json('quiz_data.json')
 
-def ask_question(question_data):
-    user_answer = input(f'{question_data["Question"]} ').strip().lower()
+total_score = 'Zero Point'
+
+def ask_question(question_data, score):
+    user_answer = input(f'{question_data["Question"]} (press {'q'} to quit) ').strip().lower()
+    if user_answer == 'q':
+        print(f'You Scored {score}.\nThank You')
+        quit()
     if user_answer == question_data['Answer'].lower():
         print("Correct!")
-        return question_data['Points']
+        score += question_data['Points']
     else:
         print(f"Wrong! The correct answer is: {question_data['Answer']}")
-        return 0
+    return score
+
+
+
 
 def play_quiz(questions, shuffle=True):
     score = 0
@@ -19,9 +27,15 @@ def play_quiz(questions, shuffle=True):
         random.shuffle(questions)
     print("Let's Play the Quiz")
     for question_data in questions:
-        score += ask_question(question_data)
+        score = ask_question(question_data, score)
     return score
+
 
 # Play the quiz
 total_score = play_quiz(quiz_data)
+
 print(f'You Scored {total_score}.\nThank You')
+
+
+
+
