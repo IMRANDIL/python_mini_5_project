@@ -23,3 +23,27 @@ Test your luck and intuition with this simple number guessing game! The game gen
 5. The game will provide feedback on whether your guess is too high,
 
 **Enjoy the game and happy guessing!**
+
+
+# Rock Paper Scissors By cloning the rock_paper_scissors module in your system.
+
+## Description
+
+This is a simple command-line implementation of the classic game "Rock Paper Scissors" against the computer. The game allows the player to input their choice of 'Rock', 'Paper', or 'Scissors', and then randomly selects a choice for the computer. The winner is determined based on the traditional rules: Rock crushes Scissors, Scissors cuts Paper, and Paper covers Rock.
+
+## How to Play
+
+1. Run the script in your preferred Python environment.
+2. When prompted, type your choice of 'Rock', 'Paper', or 'Scissors' (case insensitive).
+3. The computer will randomly select its choice.
+4. The winner of the round will be displayed, or if it's a tie, it will notify you.
+5. Continue playing until you decide to quit by typing 'Q' or 'q'.
+
+## Features
+
+- Simple and intuitive gameplay.
+- Keeps track of the number of wins for both the player and the computer.
+- Allows the player to quit the game at any time.
+- Provides clear instructions and feedback during gameplay.
+
+Enjoy playing Rock Paper Scissors against the computer!
