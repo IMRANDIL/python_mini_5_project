@@ -9,7 +9,6 @@ while True:
         print("Bye")
         break
     computer_choice = choices[random.randint(0, len(choices)-1)].lower()
-    print('computer choice>>>>>>>>>>>>>>>', computer_choice)
     if user_input in choices:
         if user_input == 'Rock'.lower() and computer_choice == 'Paper'.lower():
             print('You won!')
