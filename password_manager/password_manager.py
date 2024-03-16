@@ -48,18 +48,22 @@ def add():
 
 
 
+def main():  
+    while True:
+        mode = input("Would you like to add a new password or view existing ones (view, add), press q to quit? ").lower()
 
-while True:
-    mode = input("Would you like to add a new password or view existing ones (view, add), press q to quit? ").lower()
+        if mode == 'q':
+            print("Bye!")
+            quit()
+            
+        if mode == "view":
+            view()
+        elif mode == "add":
+            add()
+        else:
+            print("Sorry, You have to choose either add or view, try again")
+            continue
 
-    if mode == 'q':
-        print("Bye!")
-        quit()
-        
-    if mode == "view":
-        view()
-    elif mode == "add":
-        add()
-    else:
-        print("Sorry, You have to choose either add or view, try again")
-        continue
+
+if __name__ == "__main__":
+    main()
