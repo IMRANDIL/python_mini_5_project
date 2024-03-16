@@ -21,3 +21,5 @@ Test your luck and intuition with this simple number guessing game! The game gen
 3. Guess the randomly generated number within the provided range.
 4. Keep guessing until you correctly identify the number or choose to quit by entering 'q'.
 5. The game will provide feedback on whether your guess is too high,
+
+**Enjoy the game and happy guessing!**
