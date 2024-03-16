@@ -14,12 +14,16 @@ def write_key():
 write_key()
 '''
 
-
 def load_key():
     file = open("key.key", 'rb')
     key = file.read()
     file.close()
     return key
+
+key = load_key() +  master_pwd.encode()
+
+fer = Fernet(key)
+
 
 
 def view():
@@ -37,7 +41,7 @@ def add():
     password = input("Password: ")
     
     with open('passwds.txt', 'a') as f:
-        f.write(f"{name} | {password}\n")
+        f.write(f"{name} | {str(fer.encrypt(password.encode()))}\n")
 
     print("Added in the file :)")
 
