@@ -10,7 +10,7 @@ def ask_question(question_data, score):
     user_answer = input(f'{question_data["Question"]} (press {'q'} to quit) ').strip().lower()
     if user_answer == 'q':
         print(f'You Scored {score}.\nThank You')
-        quit()
+        quit() # exits the program simply
     if user_answer == question_data['Answer'].lower():
         print("Correct!")
         score += question_data['Points']
