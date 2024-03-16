@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What is the capital of France?",
+        "Answer": "Paris",
+        "Difficulty": "Easy",
+        "Points": 10
+    },
+    {
+        "Question": "Who wrote the play 'Hamlet'?",
+        "Answer": "William Shakespeare",
+        "Difficulty": "Medium",
+        "Points": 20
+    },
+    {
+        "Question": "What is the chemical symbol for water?",
+        "Answer": "H2O",
+        "Difficulty": "Easy",
+        "Points": 10
+    },
+    {
+        "Question": "Who painted the Mona Lisa?",
+        "Answer": "Leonardo da Vinci",
+        "Difficulty": "Medium",
+        "Points": 20
+    },
+    {
+        "Question": "What is the largest planet in our solar system?",
+        "Answer": "Jupiter",
+        "Difficulty": "Easy",
+        "Points": 10
+    },
+    {
+        "Question": "Who was the first President of the United States?",
+        "Answer": "George Washington",
+        "Difficulty": "Medium",
+        "Points": 20
+    },
+    {
+        "Question": "What year did the Titanic sink?",
+        "Answer": "1912",
+        "Difficulty": "Easy",
+        "Points": 10
+    },
+    {
+        "Question": "Who discovered penicillin?",
+        "Answer": "Alexander Fleming",
+        "Difficulty": "Medium",
+        "Points": 20
+    },
+    {
+        "Question": "What is the square root of 144?",
+        "Answer": "12",
+        "Difficulty": "Easy",
+        "Points": 10
+    },
+    {
+        "Question": "Who wrote 'To Kill a Mockingbird'?",
+        "Answer": "Harper Lee",
+        "Difficulty": "Medium",
+        "Points": 20
+    }
+]
